@@ -64,7 +64,7 @@ export default function App() {
                   <View style={styles.day} key={index}>
                     <Text style={styles.dt}>{day.dt}</Text>
                     <Text style={styles.temp}>{day.temp}&#176;F</Text>
-                    <Text style={styles.main}>{day.main}</Text>
+                    <Text style={styles.main}>{day.main} frshman</Text>
                     <Text style={styles.description}>{day.description}</Text>
                   </View>
                 ))
